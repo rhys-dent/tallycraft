@@ -31,7 +31,7 @@ export default function () {
       {Object.keys(data).map((groupKey) => (
         <CraftGroup
           title={data[groupKey].title}
-          group={groupKey}
+          group={data[groupKey].groupKey}
           keys={data[groupKey].keys}
         />
       ))}

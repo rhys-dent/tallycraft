@@ -23,8 +23,9 @@ const Craft = styled.div`
   align-items: center;
   border: 1vh solid lavender;
   padding: 4vh;
+  background-color: whitesmoke;
   img {
-    width: 50%;
+    max-height: 100%;
   }
   h2 {
     display: inline;

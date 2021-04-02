@@ -1,6 +1,7 @@
 export default {
   coaster: {
     title: "Coasters",
+    groupKey: "coaster",
     keys: [
       "ether",
       "fire",
@@ -15,10 +16,18 @@ export default {
   },
   hatLady: {
     title: "Hat Ladies",
-    keys: [],
+    groupKey: "hat-lady",
+    keys: [
+      "green-pink-hat",
+      "blue-rose",
+      "orange-green-hat",
+      "rose",
+      "red-handbag",
+    ],
   },
   journal: {
-    title: "Journal",
-    keys: ["tallis"],
+    title: "Journals",
+    groupKey: "journal",
+    keys: ["tallis", "rhys"],
   },
 };
