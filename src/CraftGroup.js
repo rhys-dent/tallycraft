@@ -44,7 +44,7 @@ export default function ({ title, group: group, keys }) {
             <Craft>
               <h2>{key.toUpperCase()}</h2>
               <img
-                src={`https://tallycraft-images.s3-us-west-2.amazonaws.com/${group}-${key}-1024.png`}
+                src={`https://tallycraft-images.s3-us-west-2.amazonaws.com/${group}-${key}-512.png`}
               />
             </Craft>
           ))}
