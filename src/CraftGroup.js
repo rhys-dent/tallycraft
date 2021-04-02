@@ -15,13 +15,15 @@ const Crafts = styled.section`
   height: 50vh;
   margin: 0 auto;
   overflow-y: scroll;
+  border: 1vh solid lavender;
 `;
 const Craft = styled.div`
   display: flex;
   height: 50vh;
   justify-content: space-between;
   align-items: center;
-  border: 1vh solid lavender;
+  border-bottom: 1vh solid lavender;
+  border-right: 1vh solid lavender;
   padding: 4vh;
   background-color: whitesmoke;
   img {
