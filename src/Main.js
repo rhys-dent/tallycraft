@@ -22,10 +22,10 @@ export default function () {
     <Main>
       <Intro>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sint,
-          repellat quidem, placeat aperiam non nemo et deserunt, sit vitae
-          doloremque rerum eos distinctio voluptatem! Ducimus laudantium
-          deserunt earum illo.
+          Welcome to my website! I have a listed below several different craft
+          ideas, each implemented in a variety of ways. I'd love to hear your
+          feedback or even potentially make one custom for you. Feel free to get
+          in touch!
         </p>
       </Intro>
       {Object.keys(data).map((groupKey) => (
