@@ -6,6 +6,20 @@ const Main = styled.main`
   position: relative;
   padding-top: 50vh;
   min-height: 100%;
+  .contact-info {
+    height: 100vh;
+    padding: 4rem;
+    h2 {
+      padding: 1rem;
+      a {
+        color: navy;
+        text-decoration: underline;
+      }
+    }
+    iframe {
+      border: 1vh solid lavender;
+    }
+  }
 `;
 const Intro = styled.article`
   display: flex;
@@ -35,7 +49,20 @@ export default function () {
           keys={data[groupKey].keys}
         />
       ))}
-      <article>Contact</article>
+      <article id="contact" className="contact-info">
+        <h2>
+          This website is part of a web development portfolio. The contact form
+          below is the form used on the creator's portfolio website. It can be
+          used from this website or you can navigate to the portfolio site{" "}
+          <a href="https://master.d3qv1htzcb2k0c.amplifyapp.com/">HERE</a>
+        </h2>
+        <iframe
+          src="https://master.d3qv1htzcb2k0c.amplifyapp.com/contact"
+          frameborder="0"
+          height="100%"
+          width="100%"
+        ></iframe>
+      </article>
     </Main>
   );
 }

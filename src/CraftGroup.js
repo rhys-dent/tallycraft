@@ -35,11 +35,11 @@ const Craft = styled.div`
   }
 `;
 
-export default function ({ title, group: group, keys }) {
+export default function ({ title, group, keys, href }) {
   console.log(group);
-  console.log(keys);
+  console.log(href);
   return (
-    <CraftGroup>
+    <CraftGroup id={group}>
       <h1>{title}</h1>
       <Crafts>
         <div>

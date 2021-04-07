@@ -110,9 +110,9 @@ export default function () {
         <CraftLink>
           <NavLink>Crafts</NavLink>
           <span className="craft-links">
-            <a>Coasters</a>
-            <a>Journals</a>
-            <a>Hat Ladies</a>
+            <a href="#coaster">Coasters</a>
+            <a href="#journal">Journals</a>
+            <a href="#hat-lady">Hat Ladies</a>
           </span>
         </CraftLink>
         <NavLink href="#contact">Contact</NavLink>
